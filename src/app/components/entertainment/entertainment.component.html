@@ -1,0 +1,19 @@
+<h1 class="text-center headline">{{title}}</h1>
+<div class="container-fluid">
+        
+
+    <div class="row d-flex justify-content-center">
+      <div *ngFor="let news of news" class="col-sm col-lg-3 p-0">
+        <div class="card text-center" style=" min-height: 32rem; max-height: 32rem;">
+          <img src="{{news.urlToImage}}" class="card-img-top" alt="..." style="max-height: 13rem; min-height: 13rem;">
+          <div class="card-body" style="min-height: 200px;">
+            <h5 title="{{news.title}}" class="card-title">{{news.title}}</h5>
+            <p title="{{news.description}}" class="card-text">{{news.description}}</p>
+      
+            <a  href="{{news.url}}" class="btn btn-dark">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>

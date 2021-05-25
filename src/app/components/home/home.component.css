@@ -1,17 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
-body{
-    background-image: url('./assets/Pattern-Randomized.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@700&family=Pacifico&display=swap');
-.active{
-    font-weight: bold;
-   text-decoration: underline;
-}
+
 .title{
     font-family: 'Abril Fatface', cursive;
     font-size: 18px;
@@ -54,8 +42,7 @@ body{
 
 }
 
-
-@media (min-width: 576px) { 
+  @media (min-width: 576px) { 
     .col-sm, .col-lg-3{
         padding: 0 !important;
         padding-right: 0px!important;
