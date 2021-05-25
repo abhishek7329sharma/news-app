@@ -9,13 +9,13 @@ import { SportComponent } from './components/sport/sport.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 
 const routes: Routes = [
-  { path:'', component:HomeComponent},
-  { path:'general', component:GeneralComponent},
-  { path:'science', component:ScienceComponent},
-  { path:'technology', component:TechnologyComponent},
-   { path:'entertainment', component:EntertainmentComponent},
-   { path:'health', component:HealthComponent},
-  { path:'sport', component:SportComponent},
+  { path:'', component: HomeComponent},
+  { path:'general', component: GeneralComponent},
+  { path:'science', component: ScienceComponent},
+  { path:'technology', component: TechnologyComponent},
+   { path:'entertainment', component: EntertainmentComponent},
+   { path:'health', component: HealthComponent},
+  { path:'sport', component: SportComponent},
 ];
 
 @NgModule({
